@@ -45,7 +45,7 @@ li:hover{
 nav{display:inline;float:right;width:55%;}
 header{width:100%;}
 #logo:hover{
-        -webkit-transform: rotateZ(30deg);
-        -ms-transform: rotateZ(30deg);
-        transform: rotateZ(30deg);
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
 }
