@@ -1,0 +1,51 @@
+body{
+  font-family:"Sofia";
+  background-color:#695958;
+  color:#B6C8A9;
+  font-size:14px;
+}
+nav>ul{
+   list-style-type:none;
+   text-align:center; /* center horizontally */
+   vertical-align:middle; /* center vertically */
+}
+nav>ul>li{
+  font-weight:bold;
+  height:50px;
+  width:50px;
+  display:inline-block;
+  border : 5px solid #CEDADA;
+  border-radius : 50%;
+  padding :10px;
+  background-color:
+  text-align:center; /* center horizontally */
+  vertical-align:middle; /* center vertically */
+  opacity: 0.6;
+  transition: 0.3s;
+}
+a{ 
+  margin:5px;
+  text-decoration:none;
+  color: inherit;
+  background-color:inherit;
+  transition: 1s;
+ 
+ }
+li:hover{
+  opacity: 1;
+  color:white;
+}
+#logo{display:inline-block;width:40%;}
+#logo>h4{
+  color:#CEDADA;
+  margin:0;
+  padding:0;
+  margin-top:-30px;}
+
+nav{display:inline;float:right;width:55%;}
+header{width:100%;}
+#logo:hover{
+        -webkit-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+}
