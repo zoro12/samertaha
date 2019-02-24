@@ -1,8 +1,8 @@
-<DOCTYPE html>
+<!DOCTYPE html>
   <html>
     <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width" initial-scale="1.0">
       <meta name="description" content="about samer taha website">
       <meta name="author" content="samer taha">
       <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
@@ -11,20 +11,83 @@
       <title> Samer taha </title>
     </head>
     <body>
-    <header>
+      <header>
      
-      <a href="/" id="logo">
-       <h1>Samer taha  </h1>
-       <h4>I'm a web developer</h4>
-      </a> 
+            <a href="/" id="logo">
+               <h1>Samer taha  </h1>
+               <h4>I'm a web developer</h4>
+            </a> 
      
-      <nav>
-        <ul>
-          <li><a href="index.html">About<br> me</a></li>
-          <li><a href="/about/">founders<br>&amp;coders</a></li>
-          <li><a href="/blog/">Links</a></li>
-        </ul>
-      </nav> 
+         <nav>
+              <ul>
+                 <li><a href="#about">About<br> me</a></li>
+                 <li><a href="#founders">founders<br>&amp;coders</a></li>
+                 <li><a href="#links">Links</a></li>
+              </ul>
+         </nav> 
       </header>
+      
+      <br>
+      <section id="nazareth-slider">
+          <div class="slideshow-container>">
+              <div class="myslides fade">
+                  <div class="numbertext">
+                      1 / 3
+                  </div>
+                  <img src="https://media.gettyimages.com/photos/basilica-of-the-annunciation-19591969-nazareth-israel-20th-century-picture-id630808515?s=612x612" alt="background">
+                  <div class="text">First Image</div>
+              </div> <!-- meyslides end -->
+    
+              <div class="myslides fade">
+                  <div class="numbertext">
+                      2 / 3
+                  </div>
+                  <img src="https://static.timesofisrael.com/www/uploads/2017/02/Nazareth-cropped.jpg" alt="background">
+                  <div class="text">second Image</div>
+              </div>
+        
+              <div class="myslides fade">
+                  <div class="numbertext">
+                      3 / 3
+                  </div>
+                  <img src="https://cdn-images-1.medium.com/max/2000/1*EVqCcmCPgpNKxU1wzcTHgw.png" alt="background">
+                  <div class="text">third Image</div>
+              </div>
+
+              <div class="dots-container">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+              </div>
+           </div>   <!-- slideshow-container end-->
+      </section> <!--end of nazareth-slider-->
+<main>
+      <div id="about">
+        <h2>About me</h2>
+        <p>Hi, my name i samer i am from nazareth, i am joining Founders and coders bootcamp this year 2019,
+            because i love programming, also i have a software practical engineering cert, and i want to study as
+             javascript Full stack developer, i am very glad to join founders and coders learning camp in nazareth,
+            also i studied PHP server scripting in the past but i heard all the world moving to SPA app development
+            like angular/react and node.js so javascript is the future language for both front and backend developers. </p>
+      </div>
+      <div id="founders">
+        <h2>about founders and coders</h2>
+        <p>Foundersand Coders is tuition-free, full stack JavaScript coding bootcamp with campuses in London,
+           UK and Nazareth, Israel, Founders and Coders is not your ordinary coding bootcamp.
+           founders and coders is on a mission to prove that for many people peer-led learning is the most
+           effective and least expensive route into the tech industry. founders and coders no paid teaching staff.
+        While founders and coders do employ a part-time facilitator who coordinates course logistics, 
+        the course is primarily “peer-led.” I will learn to code by pair programming with a partner, 
+        working on team projects, and from “near-peer” mentorship by recent graduates.</p>
+      </div>
+      <div id="links">
+        <h2>Links :</h2>
+        <p>For more information on this site code in github, visit my <a href="https://github.com/zoro12/samertaha">github page</a>,<br>
+            look at <a href="https://www.freecodecamp.org/zoro12">freecodecamp.org profile.</a></p>
+      </div>
+</main>
+
+      
+      <script src="./main.js"></script>
     </body>
   </html>
